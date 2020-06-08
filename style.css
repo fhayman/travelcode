@@ -1,0 +1,127 @@
+
+
+.backgroundContainer{
+    position: relative;
+    
+}
+.backgroundImage{
+    background-size: cover;
+    height:100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    
+}
+.navBar{
+    position: absolute;
+    top: 8px;
+    right: 50px;
+    margin: 5px;
+    padding-right: 5px;
+}
+ul{
+    list-style-type: none;
+    margin: 10px; 
+}
+li{
+    float: right;
+}
+li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: lightcoral; 
+}
+
+li a:hover{
+    background-color: lightseagreen;
+    color: yellow;
+}
+
+
+img{
+    width: 100%;
+    max-height: 700px;
+    
+}
+
+/* makes the image position ready for text placement */
+.subContainer{
+    position: absolute; 
+    bottom: 5px;
+    left: 2px;
+    padding: 15px;
+    background-color: black;
+    color: blanchedalmond;
+    opacity: 0.5;
+    width: 70%;
+    height: fit-content;
+}
+.subContainer:hover{
+    background-color: red;
+}
+.Destination{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+.England{
+    font-weight: bolder;
+    color: purple;
+}
+
+.firstRow{
+    display: flex;
+}
+
+.LondonEye{
+    flex: 50%;
+    width: 100%;
+    padding-right: 5px;
+}
+.LondonEye a {
+    text-decoration: none;
+}
+
+
+p:hover{
+    color: blue;
+}
+h2:hover{
+    color: crimson;
+}
+
+
+.LondonTower{
+    flex: 50%;
+    width: 100%;
+    padding-right: 5px;
+}
+.LondonTower a {
+    text-decoration: none;
+}
+
+.secondRow{
+    display: flex;
+}
+
+.Bridge{
+    flex: 50%;
+    width: 100%;
+    padding-right: 5px;
+}
+.Bridge a {
+    text-decoration: none;
+}
+
+
+.Museum{
+    flex: 50%;
+    width: 100%;
+    padding-right: 5px;
+}
+
+.Museum a {
+    text-decoration: none;
+}
