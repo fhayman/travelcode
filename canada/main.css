@@ -1,0 +1,51 @@
+/*Globals*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container-fluid {
+  padding: 10vh 0 10vh 0; /*top and bottom padding */
+  overflow: hidden;
+}
+
+.quote {
+  height: 100%;
+}
+
+.blog-footer {
+    background: #DCDCDCf;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jumbotron {
+    background-image: url("https://res.cloudinary.com/simpleview/image/upload/v1486505969/clients/vancouverbc/Aerial_Sunset_Vancouver_d3_copy_1bb86ed0-1edc-4cda-841d-0b033ca0bb72.jpg");
+    background-size: cover;
+  }
+
+
+/* Page Specific CSS */
+
+.parallax-window {
+    max-height: 65vh;
+    min-height: 400px;
+    background: transparent;
+    margin-left: -22vw;
+    margin-right: -22vw;
+}
+
+#header-image {
+    padding-top: 0px;
+}
+
+#header-text {
+    color: white;
+    padding-top: 170px;
+}
