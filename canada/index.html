@@ -9,8 +9,7 @@
     <!-- <link rel="stylesheet" type="text/css" href="./css/main.css" /> -->
     <link rel="stylesheet" type="text/css" href="./main.css" />
     <link rel="stylesheet" type="text/css" href="../navbar.css" />
-    <link rel="shortcut icon" href="../favicon.ico" />
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -18,6 +17,8 @@
     <script src="./parallax/parallax.js"></script>
     <script src="https://kit.fontawesome.com/f72bb6e9f0.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
     <title>Canada</title>
   </head>
 
@@ -27,7 +28,7 @@
       <nav class="nav">
         <div class="container">
             <div class="logo">
-                <a href="https://caitlingbailey.github.io/"><img class="logo-img" src="https://www.festivalclaca.cat/imgfv/b/2-24325_globe-world-world-map-graphic-design-png-image.png" alt=""></a>
+                <!-- <a href="https://caitlingbailey.github.io/"><img class="logo-img" src="https://image.flaticon.com/icons/png/512/759/759581.png" alt=""></a> -->
             </div>
             <div id="mainListDiv" class="main_list">
                 <ul class="navlinks">
@@ -76,7 +77,7 @@
       </div>
     </div>
     <!-- Blog posts -->
-    <div class="container-fluid">
+    <!-- <div class="container-fluid">
     <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
       <div class="col-md-6 px-0">
         <h1 class="display-4 font-italic">30 Photos to Inspire you to Visit Vancouver</h1>
@@ -115,7 +116,48 @@
         </div>
       </div>
     </div>
-    </div>
+    </div> -->
+
+    <div class="site-section bg-light">
+      <div class="grid-container">
+          <div class="article article1 tall" data-aos="fade-up">
+              <a class="article-link" href="#">
+                  <span class="post-category text-white bg-success">Nature</span>
+                  <div class="text text-sm text-white">
+                      <h2>20 Photos to Inspire you to Visit Vancouver</h2>
+                      <span>February 18, 2020</span>
+                  </div>  
+              </a>
+          </div>
+          <div class="article article2 wide" data-aos="fade-up">
+              <a class="article-link" href="#">
+                  <span class="post-category text-white bg-danger">Nature</span>
+                  <div class="text text-sm text-white">
+                      <h2>The best ski resorts of the Great White North</h2>
+                      <span>March 11, 2020</span>
+                  </div>  
+              </a>
+          </div>
+          <div class="article article3 square" data-aos="fade-up">
+              <a class="article-link" href="#">
+                  <span class="post-category text-white bg-primary">Nature</span>
+                  <div class="text text-sm text-white">
+                      <h2>Becoming a Canadian ski instructor</h2>
+                      <span>April 24, 2020</span>
+                  </div>  
+              </a>
+          </div>
+          <div class="article article4 square" data-aos="fade-up">
+              <a class="article-link" href="#">
+                  <span class="post-category text-white bg-success">Nature</span>
+                  <div class="text text-sm text-white">
+                      <h2>Exploring Canada's coastline</h2>
+                      <span>May 19, 2020</span>
+                  </div>  
+              </a>
+          </div>
+        </div>   
+  </div> 
 
     <div class="horizontal-rule">
       <div>
@@ -180,5 +222,6 @@
           }
       });
   </script>
+  <script>AOS.init();</script>
   </body>
 </html>

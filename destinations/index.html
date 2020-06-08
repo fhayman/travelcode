@@ -8,7 +8,7 @@
     <!--Importing CSS and JS-->
     <link rel="stylesheet" type="text/css" href="./main.css" />
     <link rel="stylesheet" type="text/css" href="./navbar.css" />
-    <link rel="shortcut icon" href="./favicon.ico" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
     <!-- Bootstrap CSS -->
@@ -16,6 +16,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="./parallax/parallax.js"></script>
     <script src="https://kit.fontawesome.com/f72bb6e9f0.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <title>Home</title>
   </head>
@@ -112,42 +113,42 @@
                 <div class="desination-grid" id="scroll-here">
                     <h2></h2><br>
                     <div class="grid-container">
-                    <article id="3685" class="location-listing">
+                    <article id="3685" class="location-listing" data-aos="fade-up">
                         <a class="location-title" href="#">Italy</a>
                         <div class="location-image">
                         <a href="#">
                             <img width="300" height="169" src="https://source.unsplash.com/cYrMQA7a3Wc/768x432/" alt="san francisco">		</a>
                         </div>
                     </article>
-                    <article id="3688" class="location-listing">
+                    <article id="3688" class="location-listing" data-aos="fade-up">
                         <a class="location-title" href="#">UK</a>
                         <div class="location-image">
                             <a href="#">
                             <img width="300" height="169" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/london-768x432.jpg" alt="london">	</a>
                         </div>
                     </article>
-                    <article id="3691" class="location-listing">
+                    <article id="3691" class="location-listing" data-aos="fade-up">
                         <a class="location-title" href="#">New York</a>
                         <div class="location-image">
                         <a href="#">
                             <img width="300" height="169" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/new-york-768x432.jpg" alt="new york">	</a>
                         </div>
                     </article>
-                    <article id="3694" class="location-listing">
+                    <article id="3694" class="location-listing" data-aos="fade-up">
                         <a class="location-title" href="#">Canada</a>
                         <div class="location-image">
                         <a href="#">
                             <img width="300" height="169" src="https://source.unsplash.com/ZqLeQDjY6fY/768x432/" alt="cape town">	</a>
                         </div>
                     </article>             
-                    <article id="3697" class="location-listing">
+                    <article id="3697" class="location-listing" data-aos="fade-up">
                         <a class="location-title" href="#">Beijing</a>
                         <div class="location-image">
                             <a href="#">
                             <img width="300" height="169" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/beijing-768x432.jpg" alt="beijing">		</a>
                         </div>
                     </article>
-                    <article id="3700" class="location-listing">
+                    <article id="3700" class="location-listing" data-aos="fade-up">
                         <a class="location-title" href="#">Paris</a>
                         <div class="location-image">
                         <a href="#">
@@ -182,6 +183,7 @@
               $('.logo-img').css({"max-height": "100px"});
           }
       });
-  </script>
+    </script>
+    <script>AOS.init();</script>
   </body>
 </html>
