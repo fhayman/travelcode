@@ -1,0 +1,245 @@
+/*Globals*/
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.container-fluid {
+  padding: 10vh 0 10vh 0; /*top and bottom padding */
+  overflow: hidden;
+}
+
+.quote {
+  height: 100%;
+}
+
+
+/* CAROUSEL 
+-------------------------------------------------- */
+  .carousel {
+  width: 100%;
+  }
+
+  .carousel,
+  .carousel-item,
+  .carousel-item.active {
+  height: 100vh;
+  }
+  .carousel-inner {
+  height: 100%;
+  }
+
+  @media screen and (max-width:992px) {
+  .carousel,
+  .carousel-item,
+  .carousel-item.active {
+  height: 100%;
+  }
+  }
+  /* Remove? */
+  .carousel-item:nth-child(1) {
+  background-image: url("./resources/images/headers/elephants full.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  }
+  .carousel-item:nth-child(2) {
+  background-image: url("./resources/images/headers/elephants full.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  }
+  .carousel-item:nth-child(3) {
+  background-image: url("./resources/images/headers/elephants full.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  }
+
+  .carousel .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  z-index: 6;
+  }
+
+  .carousel-control-prev {
+  z-index: 7;
+  }
+
+  .view {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  }
+
+  .carousel-caption h2 {
+  font-size: 4rem;
+  }
+  .carousel-caption p {
+  font-size: 2rem;
+  }
+
+    /* Carousel Overlay */
+
+    #inner-box {
+    background: none;
+    height: 100%;
+    width: 100%;
+    /* opacity: .5; */
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding: 0;
+    transition: opacity .5s;
+    z-index: 5;
+    }
+
+    #inner-box-text {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%,-50%); /*move text to center */
+    -ms-transform: translate(-50%,-50%); 
+    }
+
+    #inner-box h2 {
+    font-size: 3rem;
+    }
+
+    #inner-box p {
+    font-size: 2rem;
+    }
+
+    .fa-arrow-down {
+    color: white;
+    }
+
+
+
+.blog-footer {
+    background: #DCDCDCf;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jumbotron {
+    background-image: url("https://res.cloudinary.com/simpleview/image/upload/v1486505969/clients/vancouverbc/Aerial_Sunset_Vancouver_d3_copy_1bb86ed0-1edc-4cda-841d-0b033ca0bb72.jpg");
+    background-size: cover;
+  }
+
+
+  .location-title {
+    color: white;
+    text-decoration: inherit;
+  }
+  
+  .location-title:link {
+    color: white;
+    text-decoration: inherit;
+  }
+  
+  .location-title:hover {
+    color: white;
+    text-decoration: inherit;
+  }
+
+  .location-image a img {
+    width: 100%; /* need to overwrite inline dimensions */
+    height: auto;
+  }
+  h2 {
+    margin-bottom: .5em;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1em;
+  }
+  
+  .gallery {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0 10px 0
+  }
+
+  .destination-grid {
+      text-align: center;
+  }
+  
+  /* hover styles */
+  .location-listing {
+    position: relative;
+  }
+  
+  .location-image {
+    line-height: 0;
+    overflow: hidden;
+  }
+  
+  .location-image img {
+    filter: blur(0px);
+    transition: filter 0.3s ease-in;
+    transform: scale(1.1);
+  }
+  
+  .location-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .5s;
+    background: rgba(90,0,10,0.4);
+    color: white;
+    
+    /* position the text in t’ middle*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .location-listing:hover .location-title {
+    opacity: 1;
+  }
+  
+  .location-listing:hover .location-image img {
+    filter: blur(2px);
+  }
+  
+  
+  /* for touch screen devices */
+  @media (hover: none) { 
+    .location-title {
+      opacity: 1;
+    }
+    .location-image img {
+      filter: blur(2px);
+    }
+  }
