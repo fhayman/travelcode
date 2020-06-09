@@ -1,95 +1,136 @@
-<!Doctype html>
-<html>
-    <head>
-        <title>England Travel Destinations</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <body>
-        
-        
-    
-        <div class="backgroundContainer">
-            <img class="backgroundImage" src="summer.jpg" alt="Background" width="100%">
-            <div class="subContainer">
-               <h2><b>Unsure of where to visit when next you come to England?</b></h2>
-               <h2><b>Unveil the top 4 heart-warming places to visit in England</b></h2> 
+<!doctype html>
+<html lang="en">
+  <head>
+  <!-- Caitlin comment - wrapped all these bits in the "head" -->
+  <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Importing CSS and JS-->
+    <!-- <link rel="stylesheet" type="text/css" href="./css/main.css" /> -->
+    <link rel="stylesheet" type="text/css" href="./travel.css" />
+    <link rel="stylesheet" type="text/css" href="./destinations/navbar.css" />
+    <!-- Link to the navbar CSS in the github folder -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+​
+<body>
+  ​    <!-- Nav -->
+      <nav class="nav searchBar">
+        <div class="container">
+            <div class="logo">
             </div>
-            <div class="Destination">  Destination 
-            </div>
-            <div class="England"><h2 >England</h2></div>
-            <div class="navBar">
-                <ul>
-                    <li><a href="#Contact">Contact</a></li>
-                    <li><a href="#Destinations">Destinations</a></li>
-                    <li><a href="#About">About</a></li>
-                    <li><a href="#Home">Home</a></li>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Destinations</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
-        
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
         </div>
-        <div class="horizontal-rule">
-            <hr>
-        </div>
-        
+    </nav>
+
+  <!-- Making pictures big -->
+  <!-- Ceated a separate div, then added CSS to make them full screen -->
+  <main>
+    <!-- <h1>TRAVEL BLOG</h1> -->
+    <div class="big-picture" id="italy-picture">
+      <h3>Italy</h3>
+      <!-- <img src= "https://source.unsplash.com/pRU-VnBVJMQ/1306x720/" alt="Italy">  -->
+    </div>
+    <div class="big-picture" id="canada-picture">
+      <h3>Canada</h3>
+      <!-- <img src= "https://source.unsplash.com/-RuRzumDbWQ/" alt="Italy">  -->
+    </div>
+    <div class="big-picture" id="england-picture">
+      <h3>England</h3>
+      <!-- <img src= "https://source.unsplash.com/xgP7VQ6mRG8/" alt="Italy">  -->
+    </div>
   
-        <div class="myQuote">
-            <p class="quote">"</p>
-            <p class="George"><br>England is the paradise of individuality, eccentricity, heresy, anomalies, hobbies and humors<br></p>
-            <p class="quote">"</p>
-            <h3 class="title">George Santayana</h3> 
-        </div>
+    <div id="page-text">
+      <table>
+        <thead>
+          <tr>
+            <th>A Blog designated for travel</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Sharing a selection of places that mean something to us from around the world
+          </tr>
+          <h2>Canada. England. Italy</h2>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
 
-    
-        <div class="horizontal-rule">
-            <hr>
-        </div>
-        <div class="firstRow">
-             <div class="LondonEye">
-               <img src="london-eye.jpg" alt="LondonEye"> 
-               <a href="https://en.wikipedia.org/wiki/London_Eye"><h2>The London Eye</h2></a>
-              <p>You can see the world through the eye of London</p>  
-             </div>
-            
-                <div class="LondonTower">
-                    <img src="tower-of-london.jpg" alt="LondonTower">
-                    <a href="https://en.wikipedia.org/wiki/Tower_of_London"><h2>The Tower of London</h2></a>
-                    <p>Escape to the past at the Tower of London</p>
-                </div>
-         </div>
 
-            <div class="secondRow">
-                <div class="Museum">
-                    <img src="oxford england museum.jpg" alt="OxfordMuseum">
-                    <a href="https://en.wikipedia.org/wiki/Museum_of_Oxford"><h2>The Oxford Museum</h2></a>
-                    <p>Explore a vast of human history and culture</p>
-                    
-                </div>
 
-                <div class="Bridge">
-                    <img src="silver-jubilee-bridge.jpg" alt="Bridge">
-                    <a href="https://en.wikipedia.org/wiki/Silver_Jubilee_Bridge"><h2>The Silver Jubilee Bridge</h2></a>
-                    <p>The Silver Jubilee Bridge is <b>NOT</b> falling down</p>
-                </div>
-            </div>
-        </body> 
+<div id="contact">
+  <form action="action _page.php">
+  <div class="container">
+  <h4>subscribe to our blog</h4>
+  </div>
 
-        <div class="horizontal-rule">
-            <div>
-              <hr>
-            </div>
-      </div>
-          
-            <Footer>
-            <div class="FooterContainer">
-              <div class="Footer">
-                    <h2>Find me on social media</h2>
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                    <p class = "Ruqoyat"> Blog built by Ruqoyat Abdulsalam using using Html and CSS</p>
-                    <p><a href="#" class="top">Back to top</a></p>
-            </div>
-          </div>
-              </footer>
-          
+  <div class= "container"
+  style="background-colour:white">
+  <input tyoe="text"
+  placeholder= "name" name="name"required>
+  <input tyoe="text"
+  placeholder="email address" name=mail required>
+  <label>
+    <input type="checkbox"
+    checked="cheked"
+    name="subscribe"> Weekly posts
+    </label>
+  </div>
+  
+  <div class="container">
+    <inp ut type="submit"
+  value="subscribe">
+  </div>
+  </form>
+</div>
+
+
+
+
+
+
+
+<!-- Footer -->
+<footer>
+  <p> Blog edited by Caitlin, Ruqoyat, Elizabeth & Flo &hearts;</p>
+</footer>
+
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src=".main.js"></script>
+    <script>
+      $(window).scroll(function() {
+          if ($(document).scrollTop() > 50) {
+              $('.nav').addClass('affix');
+              console.log("OK");
+              $('.logo-img').css({"max-height": "59px"});
+              $('.navlinks').css({"text-color": "orange"});
+          } else {
+              $('.nav').removeClass('affix');
+              $('.logo-img').css({"max-height": "100px"});
+          }
+      });
+  </script>
+  <script>AOS.init();</script>
+  </body>
 </html>
+

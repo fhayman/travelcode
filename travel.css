@@ -403,3 +403,20 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+#canada-picture {
+  background-image: url("https://source.unsplash.com/-RuRzumDbWQ/1306x720/");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#england-picture {
+  background-image: url("https://source.unsplash.com/xgP7VQ6mRG8/1306x720/");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#page-text {
+  padding: 60px 0 60px 0;
+  text-align: center;
+}
