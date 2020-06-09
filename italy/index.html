@@ -3,32 +3,33 @@
     <head>
         <title>Travel Blog</title>
         <link rel="Stylesheet" href="Project.css">
-        <link rel="Stylesheet" href="../destinations/navbar.css">
-        <link href="">
+        <link rel="stylesheet" href="../destinations/navbar.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     </head>
 
     <body>
-
-        ​<!-- Nav -->
-        <nav class="nav searchBar">
-          <div class="container">
-              <div class="logo">
-              </div>
-              <div id="mainListDiv" class="main_list">
-                  <ul class="navlinks">
-                      <li><a href="https://fhayman.github.io/travelcode/">Home</a></li>
-                      <li><a href="#page-text">About</a></li>
-                      <li><a href="https://fhayman.github.io/travelcode/destinations/">Destinations</a></li>
-                      <li><a href="#contact">Contact</a></li>
-                  </ul>
-              </div>
-              <span class="navTrigger">
-                  <i></i>
-                  <i></i>
-                  <i></i>
-              </span>
-          </div>
-      </nav>
+    <!-- Nav -->
+      <nav class="nav">
+        <div class="container">
+            <div class="logo">
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="https://fhayman.github.io/travelcode/">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="https://fhayman.github.io/travelcode/destinations/">Destinations</a></li>
+                    <li><a href="https://fhayman.github.io/travelcode/">Contact</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
 
         <Header>
 
@@ -40,30 +41,30 @@
         </Header>
 
     <main>
-        <div class="Quote">
-            <h2>"You may have the universe if I may have Italy"</h2>
-            <h4> - Giuseppe Verdi </h4>
-
-
+        <div class="quote">
+            <blockquote class="blockquote text-center">
+                <p class="mb-0">"You may have the universe if I may have Italy"</p>
+                <footer class="blockquote-footer"><cite title="Source Title">Giuseppe Verdi</cite></footer>
+              </blockquote>
         </div>
 
+        <div class="container">
+            <h2>Rome</h2>
+            <p>Rome is one of the most iconic and most traveled cities in Europe, with a long history to match. 
+                With a mixture of cultures from around the world, Rome has it all. Wander the cobblestone street with gelato in hand, spend some time people watching from the Spanish Steps and take in all of the stunning architecture the city has to offer. 
+                Rome is also a foodie's heaven, from the world-class cuisine, to casual trattorias, to takeaway pizzas. Here's my ultimate Rome travel guide!</p>
 
-        <h2>Rome</h2>
-        <p>Rome is one of the most iconic and most traveled cities in Europe, with a long history to match. 
-            With a mixture of cultures from around the world, Rome has it all. Wander the cobblestone street with gelato in hand, spend some time people watching from the Spanish Steps and take in all of the stunning architecture the city has to offer. 
-            Rome is also a foodie's heaven, from the world-class cuisine, to casual trattorias, to takeaway pizzas. Here's my ultimate Rome travel guide!</p>
-
-        <h2>Venice</h2>
-        <p>There’s something extremely romantic and charming about Venice. Imagine strolling down alleyways, eating authentic gelato while window shopping for Italian leather handbags. 
-            Whether it’s the Basilica di San Marco located in the heart of the Piazza San Marco, the Rialto Bridge, or the Ponte dei Sospiri, there is so much history to be seen on this magical little island, it can seem very overwhelming. 
-            Here is my ultimate guide to Venice, Italy!</p>
+            <h2>Venice</h2>
+            <p>There’s something extremely romantic and charming about Venice. Imagine strolling down alleyways, eating authentic gelato while window shopping for Italian leather handbags. 
+                Whether it’s the Basilica di San Marco located in the heart of the Piazza San Marco, the Rialto Bridge, or the Ponte dei Sospiri, there is so much history to be seen on this magical little island, it can seem very overwhelming. 
+                Here is my ultimate guide to Venice, Italy!</p>
 
 
-        <h2>Portofino</h2>
-        <p>Defined by many as the world’s most beautiful seaside town, picturesque Portofino intoxicates those who visit the northwestern coast of Liguria. 
-            This coastline is part of the Italian Riviera, which extends upwards from the luscious region of Tuscany to the Italian-French border and includes the enthralling rocky stretch, Cinque Terre. Centuries ago, Portofino was a traditional, small, secluded fishing village. 
-            Now, with only about 500 permanent residents, Portofino is pocket-sized and barely qualifies as a town. However, its streets and surrounding wilderness come alive in the warm summer months.</p>
-
+            <h2>Portofino</h2>
+            <p>Defined by many as the world’s most beautiful seaside town, picturesque Portofino intoxicates those who visit the northwestern coast of Liguria. 
+                This coastline is part of the Italian Riviera, which extends upwards from the luscious region of Tuscany to the Italian-French border and includes the enthralling rocky stretch, Cinque Terre. Centuries ago, Portofino was a traditional, small, secluded fishing village. 
+                Now, with only about 500 permanent residents, Portofino is pocket-sized and barely qualifies as a town. However, its streets and surrounding wilderness come alive in the warm summer months.</p>
+        </div>
 
     </main>
 
@@ -71,8 +72,24 @@
 
 
 
-
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src=".main.js"></script>
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+                $('.logo-img').css({"max-height": "59px"});
+                $('.navlinks').css({"text-color": "orange"});
+            } else {
+                $('.nav').removeClass('affix');
+                $('.logo-img').css({"max-height": "100px"});
+            }
+        });
+    </script>
     </body>
 
 </html>

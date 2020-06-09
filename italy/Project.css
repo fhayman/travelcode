@@ -1,26 +1,30 @@
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 
 header {
+    width: 100%;
     background-image: url(https://handluggageonly.co.uk/wp-content/uploads/2018/02/Hand-Luggage-Only-8-5.jpg);
     background-size: 1300px 500px;
     color:black;
+    background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    background height: 500px;
     padding-top: 200px;
     padding-bottom: 200px;
-    margin: 50px;
+    /* margin: 50px; */
     font-size: 20px;
-
 }
 
 h3 {
     text-align: center;
+    /* color: white; */
 }
 
 h1 {
     text-emphasis: bold;
-    
+    /* color: white;     */
 }
 
 nav {
@@ -57,13 +61,13 @@ nav li {
 
 }
 
-.Quote {
+.quote {
     background-color: white;
     text-align: center;
-    font-size: 15px;
+    font-size: 25px;
     color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 0px 30px 20px 30px;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    padding: 150px 30px 150px 70px;
     
 }
 
